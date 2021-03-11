@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Jockey+One&family=PT+Sans&family=Pirata+One&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 1em 'pt sans';
+  color: #002579;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+header {
+  text-align: center;
+  padding: 1em;
+}
+
+header>h1 {
+  font: 3.3em 'pirata one';
+}
+
+header>p {
+  font: .5em 'pt sans';
+  color: #a00;
+  letter-spacing: 1.7em;
+  margin-right: -2em;
+}
+
+div {
+  font: 2em 'jockey one';
+  color: #a00;
+  padding: 1em;
+}
+
+section {
+  float: left;
+}
+
+footer {
+  clear: left;
+  text-align: center;
+}

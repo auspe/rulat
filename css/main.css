@@ -10,19 +10,21 @@ body {
   color: #002579;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  max-width: 900px;
+  margin: 0 auto;
 }
 
 header {
   text-align: center;
-  padding: 1em;
+  padding: 1rem;
 }
 
 header>h1 {
-  font: 3.3em 'pirata one';
+  font: 3.3rem 'pirata one';
 }
 
 header>p {
-  font: .5em 'pt sans';
+  font: .6rem 'pt sans';
   color: #a00;
   letter-spacing: 1.7em;
   margin-right: -2em;
@@ -41,4 +43,13 @@ section {
 footer {
   clear: left;
   text-align: center;
+}
+
+a {
+  color: #025;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 1px solid;
 }

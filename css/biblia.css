@@ -15,12 +15,17 @@ h5,
 h6 {
   font-weight: normal;
   text-align: center;
-  margin: 0;
+  margin: .4rem;
+}
+
+header {
+  text-align: center;
+  padding: 1rem;
 }
 
 h1 {
-  font-size: 3.3rem;
-  padding: 1rem;
+  font-size: 3.5rem;
+  color: #202225;
 }
 
 a {

@@ -8,10 +8,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
   font-family: 'Pirata One';
   color: #222;
-  background: #e0e2d5;
+  background: antiquewhite;
   font-size: 1.5rem;
   max-width: 900px;
   margin: 0 auto;
+}
+
+p {
+  padding: 1rem;
 }
 
 h1,

@@ -50,6 +50,10 @@ sup {
 }
 
 .bukvica {
-  font-size: 3rem;
+  font-size: 4rem;
+  line-height: 4rem;
   color: #a55;
+  display: block;
+  padding: 0 1rem 0 0;
+  float: left;
 }

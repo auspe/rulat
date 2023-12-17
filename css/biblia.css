@@ -57,3 +57,13 @@ sup {
   padding: 0 1rem 0 0;
   float: left;
 }
+
+ul {
+  display: flex;
+  list-style: none;
+  color: red;
+}
+
+ul>li {
+  padding: 1rem;
+}

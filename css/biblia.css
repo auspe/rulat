@@ -68,3 +68,8 @@ ul {
 ul>li {
   padding: 1rem;
 }
+
+::selection {
+  background: #202225;
+  color: #fafbf7;
+}

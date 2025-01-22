@@ -1,1 +1,33 @@
 # Russkaā Latinica 
+
+A a
+Ā ā
+B b
+C c
+Ç ç
+D d
+E e
+Ė ė
+F f
+G g
+H h
+I i
+J j
+K k
+L l
+M m
+N n
+O o
+Ō ō
+P p
+R r
+S s
+Š š
+T t
+U u
+Ū ū
+V v
+Y y
+Z z
+Ž ž
+’ '

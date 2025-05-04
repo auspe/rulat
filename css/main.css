@@ -10,19 +10,24 @@ body {
   color: #002579;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  /* max-width: 900px; */
+  margin: 0 auto;
+  max-width: 900px;
 }
 
 header {
   text-align: center;
-  padding: 1em;
+  height: 100px;
+  background: #fff;
 }
 
 header>h1 {
-  font: 3.3em 'pirata one';
+  font: 3.5rem 'pirata one';
+  margin: 0;
 }
 
 header>p {
-  font: .5em 'pt sans';
+  font: .6rem 'pt sans';
   color: #a00;
   letter-spacing: 1.7em;
   margin-right: -2em;
@@ -31,14 +36,37 @@ header>p {
 div {
   font: 2em 'jockey one';
   color: #a00;
-  padding: 1em;
-}
-
-section {
-  float: left;
+  padding: 0;
+  margin: 0;
+  text-align: center;
 }
 
 footer {
-  clear: left;
   text-align: center;
+}
+
+a {
+  color: #025;
+  text-decoration: none;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+section {
+  padding: 10px;
+  margin: 10px;
+  flex: 1 140px;
+}
+
+ul {
+  list-style-type: none;
 }

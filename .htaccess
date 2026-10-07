@@ -1,2 +1,2 @@
 RewriteEngine On
-RewriteRule ^orwell /oruėll [R=301,L]
+RewriteRule ^orwll$ /oruėll [R=301,L]
